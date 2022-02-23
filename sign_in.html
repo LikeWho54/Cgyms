@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Sign In 01 </title>
+  <link rel="shortcut icon" href="shade-assets/image/favicon.png" type="image/x-icon">
+  <!-- Bootstrap , fonts & icons  -->
+  <link rel="stylesheet" href="shade-assets/css/bootstrap.css">
+  <link rel="stylesheet" href="shade-assets/fonts/icon-font/css/style.css">
+  <link rel="stylesheet" href="shade-assets/fonts/typography-font/typo.css">
+  <link rel="stylesheet" href="shade-assets/fonts/fontawesome-5/css/all.css">
+  <link href="https://fonts.googleapis.com/css2?family=Karla:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Gothic+A1:wght@400;500;700;900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800;900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800;900&display=swap" rel="stylesheet">
+  <!-- Plugin'stylesheets  -->
+  <link rel="stylesheet" href="shade-assets/plugins/aos/aos.min.css">
+  <link rel="stylesheet" href="shade-assets/plugins/fancybox/jquery.fancybox.min.css">
+  <link rel="stylesheet" href="shade-assets/plugins/nice-select/nice-select.min.css">
+  <link rel="stylesheet" href="shade-assets/plugins/slick/slick.min.css">
+  <!-- Vendor stylesheets  -->
+  <link rel="stylesheet" href="shade-assets/css/main.css">
+  <!-- Custom stylesheet -->
+</head>
+
+<body data-theme-mode-panel-active data-theme="light" style="font-family: 'Mazzard H';">
+  <a class="shade-floating-btn" href="https://finestdevs.com/shade/#shade-pricing"><img src="shade-assets/image/download.svg"/> Download Shade Now</a>
+  <div class="site-wrapper overflow-hidden position-relative">
+    <!-- Site Header -->
+    <!-- Preloader -->
+    <!-- <div id="loading">
+    <div class="preloader">
+     <img src="./image/preloader.gif" alt="preloader">
+   </div>
+   </div>    -->
+    <!--Site Header Area -->
+    <header class="site-header site-header--menu-right sign-in-menu-1 site-header--absolute site-header--sticky">
+      <div class="container">
+        <nav class="navbar site-navbar">
+          <!-- Brand Logo-->
+          <div class="brand-logo">
+            <a href="#">
+              <!-- light version logo (logo must be black)-->
+              <img src="shade-assets/image/logo/logo-black.png" alt="" class="light-version-logo">
+              <!-- Dark version logo (logo must be White)-->
+              <img src="image/logo/logo-white.png" alt="" class="dark-version-logo">
+            </a>
+          </div>
+          <div class="menu-block-wrapper">
+            <div class="menu-overlay"></div>
+            <nav class="menu-block" id="append-menu-header">
+              <div class="mobile-menu-head">
+                <div class="go-back">
+                  <i class="fa fa-angle-left"></i>
+                </div>
+                <div class="current-menu-title"></div>
+                <div class="mobile-menu-close">&times;</div>
+              </div>
+              <ul class="site-menu-main">
+
+                <li class="nav-item">
+                  <a href="#" class="nav-link-item"></a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+          <div class="header-btn sign-in-header-btn-1 ms-auto d-none d-xs-inline-flex">
+            <a target="_blank" class="btn download-trail-btn btn focus-reset" href="sign_up.html">
+              Sign up
+            </a>
+          </div>
+          <!-- mobile menu trigger -->
+          <div class="mobile-menu-trigger">
+            <span></span>
+          </div>
+          <!--/.Mobile Menu Hamburger Ends-->
+        </nav>
+      </div>
+    </header>
+    <!-- navbar- -->
+    <!-- Sign In Area -->
+    <div class="sign-in-1">
+      <div class="container">
+        <div class="row justify-content-lg-end justify-content-center">
+          <div class="col-xl-5 col-lg-6 col-md-8">
+            <div class="sign-in-1-box  justify-content-lg-end">
+              <div class="heading text-center">
+                <h2>Sign in</h2>
+                <p>Enter your account details below</p>
+              </div>
+              <form action="#">
+                <div class="form-group">
+                  <label>Email address</label>
+                  <input type="email" name="email" id="email" class="form-control" placeholder="ex: john@email.com">
+                </div>
+                <div class="form-group">
+                  <label>Password</label>
+                  <input type="password" name="password" id="password" class="form-control" placeholder="i.e. IAmthepreciouspass123 ">
+                </div>
+                <div class="keep-sign-area">
+                  <div class="check-form d-inline-block">
+                    <label for="terms-check" class="check-input-control d-flex align-items-center mb-0">
+                      <input class="d-none" type="checkbox" id="terms-check">
+                      <span class="checkbox checkbox-2 rounded-check-box "></span>
+                      <span class="remember-text">Keep me signed in</span>
+                    </label>
+                  </div>
+                </div>
+                <div class="sign-in-log-btn">
+                  <button class="btn focus-reset" onclick="login()">Submit</button>
+                </div>
+                <div class="create-new-acc-text text-center">
+                  <p>Forgot your password? <a href="#">Reset Now!</a></p>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--Footer Area-->
+    <footer class="footer-sign-in-1">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-5 col-sm-9">
+            <div class="row">
+              <div class="col-xl-9 col-lg-10 col-md-8">
+                <a href="#"><img src="shade-assets//image/logos/logo-paste.png" alt="" class="footer-logo"></a>
+                <div class="content">
+                  <p>Big, small, online, offline, local. Size doesn't matter. We work on diverse projects for
+                    top brands as well as for cool startups. </p>
+                </div>
+                <div class="social-icons">
+                  <ul class="pl-0 list-unstyled d-flex align-items-end ">
+                    <li class="d-flex flex-column justify-content-center"><a href="#"><i class="fab fa-twitter"></i></a>
+                    </li>
+                    <li class="d-flex flex-column justify-content-center"><a href="#"><i class="fab fa-facebook-f"></i></a>
+                    </li>
+                    <li class="d-flex flex-column justify-content-center"><a href="#"><i class="fab fa-google"></i></a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-7 col-md-12">
+            <div class="row">
+              <div class="col-lg-3 col-md-3 col-sm-4 col-xs-6">
+                <div class="footer-widget">
+                  <p class="widget-title">Help menu</p>
+                  <ul class="widget-links pl-0 list-unstyled">
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Features</a></li>
+                    <li><a href="#">Works</a></li>
+                    <li><a href="#">Career</a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-lg-5 col-md-5 col-sm-4 col-xs-6 pl-md-9 pl-6">
+                <div class="footer-widget">
+                  <p class="widget-title ">Support</p>
+                  <ul class="widget-links pl-0 list-unstyled">
+                    <li><a href="#">contact </a></li>
+                    <li><a href="#">Help & Support</a></li>
+                    <li><a href="#">Privacy and Policy</a></li>
+                    <li><a href="#">Terms & Conditions</a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-4 col-sm-4 col-xs-6">
+                <div class="footer-widget">
+                  <p class="widget-title ">Products</p>
+                  <ul class="widget-links pl-0 list-unstyled">
+                    <li><a href="#">Shades Pro</a></li>
+                    <li><a href="#">Essentiol Blocks</a></li>
+                    <li><a href="#">Avasta Dash</a></li>
+                    <li><a href="#">vApp Landing Page</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </div>
+    
+        <!-- FIREBASE -->
+    
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-app.js"></script>
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+         https://firebase.google.com/docs/web/setup#available-libraries -->
+    <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-database.js"></script>
+
+    <!-- Our script must be loaded after firebase references -->
+    <script src="database/index.js"></script>
+  <!-- Vendor Scripts -->
+  <script src="shade-assets/js/vendor.min.js"></script>
+  <!-- Plugin's Scripts -->
+  <script src="shade-assets/plugins/fancybox/jquery.fancybox.min.js"></script>
+  <script src="shade-assets/plugins/nice-select/jquery.nice-select.min.js"></script>
+  <script src="shade-assets/plugins/aos/aos.min.js"></script>
+  <script src="shade-assets/plugins/slick/slick.min.js"></script>
+  <script src="https://porjoton.netlify.app/mekanic/js/waypoints.min.js"></script>
+  <script src="shade-assets/plugins/counter-up/jquery.counterup.min.js"></script>
+  <script src="shade-assets/plugins/isotope/isotope.pkgd.min.js"></script>
+  <script src="shade-assets/plugins/isotope/packery.pkgd.min.js"></script>
+  <script src="shade-assets/plugins/isotope/image.loaded.js"></script>
+  <script src="shade-assets/plugins/menu/menu.js"></script>
+  <!-- Activation Script -->
+  <script src="shade-assets/js/custom.js"></script>
+</body>
+
+</html>
