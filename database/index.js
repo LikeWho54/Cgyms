@@ -128,6 +128,7 @@ auth.onAuthStateChanged(user =>{
         }
         console.log('logged <3')
         console.log(user.uid)
+        window.location.href("/profile.html")
 
 
     }
